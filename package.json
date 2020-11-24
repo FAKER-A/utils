@@ -1,0 +1,37 @@
+{
+  "name": "utils",
+  "version": "0.0.1",
+  "description": "Commonly used functions at work",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FAKER-A/utils.git"
+  },
+  "keywords": [
+    "utils",
+    "functions"
+  ],
+  "author": "FAKER-A",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FAKER-A/utils/issues"
+  },
+  "homepage": "https://github.com/FAKER-A/utils#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.8",
+    "@babel/preset-env": "^7.12.7",
+    "@rollup/plugin-babel": "^5.2.1",
+    "@rollup/plugin-commonjs": "^16.0.0",
+    "@rollup/plugin-node-resolve": "^10.0.0",
+    "jest": "^26.6.3",
+    "rollup": "^2.33.3"
+  },
+  "files": [
+    "dist"
+  ]
+}

@@ -20,7 +20,13 @@
     };
   }
 
+  function getType(param) {
+    var toString = Object.prototype.toString;
+    return toString.call(param).slice(8, -1);
+  }
+
   exports.debounce = debounce;
+  exports.getType = getType;
 
   Object.defineProperty(exports, '__esModule', { value: true });
 

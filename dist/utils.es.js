@@ -14,4 +14,9 @@ function debounce(fn, delay) {
   };
 }
 
-export { debounce };
+function getType(param) {
+  var toString = Object.prototype.toString;
+  return toString.call(param).slice(8, -1);
+}
+
+export { debounce, getType };

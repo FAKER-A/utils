@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "rollup -c -w",
     "build": "rollup -c",
-    "test": "jest -c=jest.config.js --verbose"
+    "test": "jest -c=jest.config.js --verbose --coverage"
   },
   "repository": {
     "type": "git",

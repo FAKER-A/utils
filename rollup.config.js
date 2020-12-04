@@ -1,33 +1,37 @@
-import resolve from "@rollup/plugin-node-resolve";
-import commonjs from "@rollup/plugin-commonjs";
+import resolve from '@rollup/plugin-node-resolve';
+import commonjs from '@rollup/plugin-commonjs';
 import babel from '@rollup/plugin-babel';
+import eslint from '@rbnlffl/rollup-plugin-eslint';
+
 export default [
   {
-    input: "index.js",
+    input: 'src/index.js',
     output: {
-      name: "Utils",
-      file: "dist/utils.umd.js",
-      format: "umd"
+      name: 'Utils',
+      file: 'dist/utils.umd.js',
+      format: 'umd',
     },
     plugins: [
+      eslint(),
       resolve(),
-      babel({ babelHelpers: "bundled" }),
-      commonjs()
-    ]
-  },{
-    input: "index.js",
+      babel({ babelHelpers: 'bundled' }),
+      commonjs(),
+    ],
+  }, {
+    input: 'src/index.js',
     output: [
       {
-        file: "dist/utils.cjs.js",
-        format: "cjs"
-      },{
-        file: "dist/utils.es.js",
-        format: "es"
-      }
+        file: 'dist/utils.cjs.js',
+        format: 'cjs',
+      }, {
+        file: 'dist/utils.es.js',
+        format: 'es',
+      },
     ],
     plugins: [
+      eslint(),
       resolve(),
-      babel({ babelHelpers: "bundled" }),
-    ]
-  }
-]
+      babel({ babelHelpers: 'bundled' }),
+    ],
+  },
+];

@@ -3,9 +3,9 @@ function debounce(fn, delay) {
   return (...arg) => {
     clearTimeout(timer);
     timer = setTimeout(() => {
-      fn.apply(this, arg)
+      fn.apply(this, arg);
     }, delay);
   };
-};
+}
 
 export default debounce;

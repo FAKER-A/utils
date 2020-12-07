@@ -2,6 +2,9 @@
 import flat from '../index';
 
 describe('flat', () => {
+  test('不穿入参数', () => {
+    expect(flat()).toEqual([]);
+  });
   test('不传入数组', () => {
     const a = {};
     expect(flat(a)).toEqual([]);

@@ -22,8 +22,8 @@ describe('getType', () => {
     expect(getType(a)).toBe('Boolean');
   });
   test('array', () => {
-    const a = true;
-    expect(getType(a)).toBe('Boolean');
+    const a = [];
+    expect(getType(a)).toBe('Array');
   });
   test('object', () => {
     const a = {};

@@ -1,7 +1,7 @@
 import chunk from '../index';
 
 describe('chunk', () => {
-  test('不穿入参数', () => {
+  test('不传入参数', () => {
     expect(chunk()).toEqual([]);
   });
   test('传入空数组', () => {

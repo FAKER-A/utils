@@ -7,3 +7,11 @@
 * [flat](./src/flat/README.md)
 * [chunk](./src/chunk/README.md)
 
+todo
+- [x] debounce
+- [x] getType
+- [x] deduplication
+- [x] flat
+- [x] chunk
+- [ ] throttle
+- [ ] curry

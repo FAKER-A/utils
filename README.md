@@ -7,3 +7,8 @@
 * [flat](./src/flat/README.md)
 * [chunk](./src/chunk/README.md)
 
+[] debounce
+[] getType
+[] deduplication
+[] flat
+[] chunk

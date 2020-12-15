@@ -1,8 +1,10 @@
 {
-  "name": "utils",
-  "version": "0.0.1",
+  "name": "utils-funciton",
+  "version": "0.1.0",
   "description": "Commonly used functions at work",
-  "main": "index.js",
+  "main": "dist/utils.cjs.js",
+  "module": "dist/utils.esm.js",
+  "unpkg": "dist/utils.umd.js",
   "scripts": {
     "dev": "rollup -c -w",
     "build": "rollup -c",

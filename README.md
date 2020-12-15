@@ -7,6 +7,7 @@
 * [flat](./src/flat/README.md)
 * [chunk](./src/chunk/README.md)
 * [throttle](./src/throttle/README.md)
+
 todo
 - [x] debounce
 - [x] getType

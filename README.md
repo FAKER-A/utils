@@ -6,12 +6,12 @@
 * [deduplication](./src/deduplication/README.md)
 * [flat](./src/flat/README.md)
 * [chunk](./src/chunk/README.md)
-
+* [throttle](./src/throttle/README.md)
 todo
 - [x] debounce
 - [x] getType
 - [x] deduplication
 - [x] flat
 - [x] chunk
-- [ ] throttle
+- [x] throttle
 - [ ] curry

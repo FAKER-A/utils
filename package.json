@@ -1,5 +1,5 @@
 {
-  "name": "utils-funciton",
+  "name": "utils-function",
   "version": "0.1.0",
   "description": "Commonly used functions at work",
   "main": "dist/utils.cjs.js",

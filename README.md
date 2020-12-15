@@ -4,10 +4,10 @@
 ## 安装/使用
 ```javascript
   // 安装
-  npm install utils-function -S // or yarn
+  npm install util-fn -S // or yarn
 
   // 使用
-  import { getType } from "utils-funciton"
+  import { getType } from "util-fn"
   getType()
 ```
 

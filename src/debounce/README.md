@@ -5,5 +5,5 @@
 
 ```javascript
   const callback = () => {}
-  const debounceCallback = debounce(debounce, 1000)
+  const debounceCallback = debounce(callback, 1000)
 ```

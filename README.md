@@ -2,6 +2,7 @@
 
 ![npm](https://img.shields.io/npm/v/util-fn)
 [![Coverage Status](https://coveralls.io/repos/github/FAKER-A/utils/badge.svg?branch=master)](https://coveralls.io/github/FAKER-A/utils?branch=master)
+
 开发过程中常用的函数
 
 ## 安装/使用

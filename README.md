@@ -1,4 +1,7 @@
 # utils
+
+![npm](https://img.shields.io/npm/v/util-fn)
+
 开发过程中常用的函数
 
 ## 安装/使用

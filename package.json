@@ -2,9 +2,9 @@
   "name": "util-fn",
   "version": "0.1.3",
   "description": "Commonly used functions at work",
-  "main": "dist/utils.cjs.js",
-  "module": "dist/utils.esm.js",
-  "unpkg": "dist/utils.umd.js",
+  "main": "dist/utils.cjs.min.js",
+  "module": "dist/utils.esm.min.js",
+  "unpkg": "dist/utils.umd.min.js",
   "scripts": {
     "dev": "rollup -c -w",
     "build": "rollup -c",

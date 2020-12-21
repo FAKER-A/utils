@@ -31,3 +31,4 @@
 - [x] chunk
 - [x] throttle
 - [ ] curry
+- [ ] deepClone
